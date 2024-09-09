@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+
+.Cabecalho{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, Serif;
+    color: black;
+    width: 450px;
+    height: 110px;
+    padding: 10px;
+    border: 5px double;
+    background-color: rgb(27, 162, 207);
+    margin: 50px auto;
+}
+
+.InformacoesPessoais{
+    text-align: center;
+    float: right;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 100px;
+    border: solid;
+    padding-left: 12px;
+    background-color: rgb(180, 180, 247);
+    border-color: blue;
+}
+
+.RotinaDiaria{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 150px;
+    border: solid;
+    padding: 3px;
+    padding-left: 12px;
+    background-color: rgb(180, 180, 247);
+    border-color: blue;
+    margin-top: 5px;
+}
+h2{ 
+    text-align: center;
+    background-color: rgb(78, 78, 247);
+    padding-left: 50px;
+    width: 300px;
+}
+.Hobbies{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.viagens{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.atualizacao{
+    float: right;
+}
