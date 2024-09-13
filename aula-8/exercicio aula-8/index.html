@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio aula 8</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Cadastro de Carros</h1>
+    </div>
+    <div class="cadastro">
+        <div class="colunaUm">
+            <div class="inputModeloCarro">
+                <form>
+                    <label for="modeloCarro">Modelo do carro:</label>
+                    <input type="text" nome="carro" id="modeloCarro" placeholder="Ex:Fiesta">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for="marcaCarro">Marca do carro:</label>
+                    <input type="text" nome="marca" id="marcaCarro" placeholder="Ex:Ford">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for="anoCarro">Ano do carro:</label>
+                    <input type="text" nome="ano" id="anoCarro" placeholder="Ex:2020">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for="kmCarro">Quantos km o carro rodou:</label>
+                    <input type="text" nome="km" id="kmCarro" placeholder="Ex:180.000">
+                </form>
+            </div>
+            <div>
+                <form>
+                    <label for="valorCarro">Marca do carro:</label>
+                    <input type="text" nome="valor" id="valorCarro" placeholder="Ex:R$90.000,00">
+                </form>
+            </div>
+            <div class="conservacaoCarro">
+                <form>
+                    <p>Estado de conservação do carro:</p>
+                    <div class="conservacao2">
+                        <label for="usadoCarro">Usado</label>
+                        <input type="radio" nome="conservacao" id="usadoCarro" value="usadoCarro">
+                        <label for="novoCarro">Novo</label>
+                        <input type="radio" nome="conservacao" id="novoCarro" value="novoCarro">
+                    </div>
+                    </form>
+            </div>
+            <div>
+                <form>
+                    <p>Adicionar opcionais:</p>
+                    <input type="checkbox" nome="adicionais" id="adicionar" value="Air Bag">
+                    <label for="valorCarro">Air Bag</label><br>
+                    <input type="checkbox" nome="adicionais" id="adicionar" value="Alarme">
+                    <label for="valorCarro">Alarme</label><br>
+                    <input type="checkbox" nome="adicionais" id="adicionar" value="Ar condicionado">
+                    <label for="valorCarro">Ar condicionado</label><br>
+                    <input type="checkbox" nome="adicionais" id="adicionar" value="Vidro eletrico">
+                    <label for="valorCarro">Vidro eletrico</label><br>
+                    <input type="checkbox" nome="adicionais" id="adicionar" value="Direção eletrica">
+                    <label for="valorCarro">Direção eletrica</label><br>
+                </form>
+            </div>
+        </div>
+            <div class="digitoFinal">
+                <form>
+                    <label for="placaCarro">Escolha o ultimo digito da placa:</label>
+                    <select id="placaCarro" name="placaCarro">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="2">4</option>
+                    <option value="3">5</option>
+                    <option value="2">6</option>
+                    <option value="3">7</option>
+                    <option value="2">8</option>
+                    <option value="3">9</option>
+                    </select>
+                </form>
+            </div>
+        
+        <div class="buttonProcurar">
+            <button id="botaoProcurar">Procurar Carro</button>
+        </div>
+    </div>
+</body>
+</html>
