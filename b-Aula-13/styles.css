@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(94, 94, 94);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h1{
+    text-align: center;
+    font-size: 10vh;
+    color: rgb(142, 142, 142);
+    -webkit-text-stroke: 2px black;
+}
+.conteudo{
+    width: 70vw;
+    height: 80vh;
+    margin: 0 15vw 0;
+    background-color: rgb(142, 142, 142);
+    border-radius: 15px 15px 0 0;
+    border: 8px double rgb(94, 94, 94);
+    border-bottom: none;
+}
+#name{
+    margin-left: 5vw;
+    font-size: 4vh;
+}
+#nameStore{
+    margin-top: 5vh;
+    color:white;
+    background-color: rgb(142, 142, 142);
+    border: 1px solid purple;
+    outline: none;
+    border-radius: 3px;
+}
+#adressStore{
+    margin-top: 5vh;
+    color:white;
+    background-color: rgb(142, 142, 142);
+    border: 1px solid purple;
+    outline: none;
+    border-radius: 3px;
+
+}#nameStore:focus{
+    border: 3px solid purple;
+    border-radius: 4px;
+}#adressStore:focus{
+    border: 3px solid purple;
+    border-radius: 4px;
+}
+
+#titleCheck{
+    margin-left: 5vw;
+}#check2{margin-left: 5vw;}
+#check{
+    background-color: rgb(94, 94, 94);
+    
+}
+#horarioSeg{
+    margin-left: 5vw;
+    font-size: 2vh;
+}
+.horario{
+    width: 1.5vw;
+    border: none;
+    outline: none;
+    background-color: rgb(205, 205, 205);
+    
+}.horario:focus{
+    border: 3px solid purple;
+    border-radius: 4px;
+}
